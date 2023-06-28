@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 20px 10px ;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #222;
+    color: white;
+    height: 100%;
+    width: 100vh;
+}
+#loom-companion-mv3 {
+    display: none;
+}
+/* btns styling */
+.btn {
+    font-family: 'Press Start 2P', cursive;
+    height: 50px;
+    width: 100px;
+    margin-right: 5px;
+}
+
+#btnagain {
+    position: relative;
+    bottom: 100px;
+}
+/* hr */
+hr {
+    position: relative;
+    bottom: 40px;
+    width: 600px;
+    height: 3px;
+    background-color: white;
+}
+/* h1 styling */
+h1 {
+    position: relative;
+    top: 80px;
+    font-size: 26px;
+    text-align: center;
+}
+/* top right text */
+.between {
+    position: relative;
+    font-size: 13px;
+    bottom: 69px;
+    left: 380px;
+}
+/* styling the div */
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    z-index:1 ;
+    margin: auto;
+    color: black;
+    height: 80px;
+    width: 100px;
+    background-color: white;
+}
+/* styling the input */
+.guess {
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid white;
+    margin-bottom: 10px; 
+    height: 55px;
+    width: 120px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+/* styling the main section */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    padding-top: 13px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
