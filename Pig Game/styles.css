@@ -169,3 +169,18 @@ main {
 .hidden {
   display: none;
 }
+
+.winner {
+  display: none;
+  position: absolute;
+  top:20px ;
+}
+.won {
+  font-size: 3.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 800;
+  display: block;
+  color: #c7365f;
+}
