@@ -63,3 +63,10 @@ console.log(0 && 'jonas');
 console.log(7 && 'Elijah');
 
 console.log('Hello' && 23 && null && 'elijah');
+
+// we can use the and operator to actually avoid an if statement if a certain value or property exist.
+if (resturant.orderPizza) {
+    resturant.orderPizza('mushrooms', 'spinach');
+}
+
+resturant.orderPizza && resturant.orderPizza
