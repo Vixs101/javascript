@@ -63,3 +63,10 @@ console.log(playersFinal);
 console.log('===task 5===')
 let { team1, x: draw, team2 } = game.odds;
 console.log(team1, draw, team2);
+
+// task 6
+console.log('===task 6===');
+const printGoals = function(...players){
+    console.log(`${players.length} goals were scored`);
+};
+
